@@ -1,0 +1,19 @@
+
+.formulario-contato{
+    position: relative;
+
+}
+
+
+.formulario-contato form{
+    width: 300px;
+	height: 100px;
+	padding: 20px;
+
+	position: absolute;
+	top: 100%;
+	left: 50%;
+
+    margin: -70px 0 0 -170px;
+    
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/master.css">
+    <title>Formulário </title>
+</head>
+<body>
+   
+        <div class="formulario-contato">
+
+                <h1>Formulário Simples</h1>
+
+            <form id="form" method="POST" action="sendToEmail.php">
+                <div>
+                    <label for="full-name">NOME</label>  <br>
+                    <input type="text" id="nome" name="nome" placeholder="Nome">
+                </div>    
+                <br>
+                <div>
+                    <label for="telephone">TELEFONE</label> <br>
+                    <input type="text" id="telefone" name="telefone" placeholder="Telefone">
+                </div>
+                <br>
+                <div>
+                    <label for="email">EMAIL</label> <br>
+                    <input type="text" id="email" name="email" placeholder="Email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="text">MENSAGEM</label> <br>
+                    <textarea id="mensagem" type="text" placeholder="Mensagem" name="msg"/></textarea>
+                </div>
+                <br>
+                <div>                          
+                    <input class="" type="submit" value="Enviar">
+                </div>
+
+            </form>
+        </div>
+
+
+</body>
+</html>
